@@ -1,124 +1,184 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Parenthèse Champêtre</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-    <link href='http://fonts.googleapis.com/css?family=Miniver|Averia+Gruesa+Libre' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="engine1/jquery.js"></script>
-    <link rel="stylesheet" type="text/css" href="zoombox.css" /><link rel="stylesheet" type="text/css" href="http://grafikart.fr/css/zoombox.css" /> 
+<html>
+<head>
+	<script type="text/javascript" src="demo/libs/jq.js"></script>
+	<link rel="Stylesheet" type="text/css" href="demo/libs/xo.css" />
+	<link rel="icon" type="image/png" href="demo/assets/Avatar2.png" />
+	<title>Camille Dewavrin</title>
+
+	<script type="text/javascript" src="parallax.min.js"></script>
+	<script type="text/javascript" src="demo/index.js"></script>
+	<link rel="Stylesheet" type="text/css" href="demo/index.css" />
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" href="demo/fontello.css">
+    <link rel="stylesheet" href="demo/animation.css">
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-34546066-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body>
+
+	<div class="container">
+
+		<div id="index" class="leaguegothic white page">
+			<img src="demo/assets/avatar2.png" class="avatar">
+			<div id="titlebox" class="f2 lghtgrey">
+
+				<div class="f5 white">Welcome on my website,</div>
+				If you want to know a little more about me, click on the right arrow.  Let's go ! -> <span id="FlecheArbo"></span>
+			</div>
+		</div>
+
+		<div id="me" class="leaguegothic white page f2">
+
+			<div class="w960 center" style="margin-top:50px;">
+
+				<div class="right"><img src="demo/assets/PhotoPerso2.jpg" style="width:200px;"><br><span class="calibri f0"></span></div>
+
+				<h1 id="titleAboutMe">Hey, I'm Camille</h1>
+						<div id="contentMe">
+							<p class= "aboutme">I'm a french student developper from EPSI, computer engineering, 
+								school located on the North of France.</p>
+							<p class= "aboutme">I passionate by a web delopment and a news technologies.</p>
+							<p class= "aboutme">My last graduate : .</p>
+							<p class= "aboutme">Otherwise, I am someone reserved, calm. I like look a TV Shows and to play FIFA  .</p>
+						</div>
+
+						<div class="footerLogo"> 
+							
+								<address>
+									<a href="mailto:camilledewavrin@hotmail.fr">cliquez ici</a>
+									<a href="mailto:camilledewavrin@hotmail.fr" class="bouton">Contact me</a><p class="CV">or download my <a href="demo/assets/CV Camille DEWAVRIN-2014.pdf" target="about_blanck">CV</a></p>
+								</address>
+
+							<a href="https://twitter.com/Kamelote59"><i class="icon-twitter" ></i></a> <span class="pFooter">Twitter</span>
+							<a href="https://github.com/kamelote"><i class="icon-github" ></i></a> <span class="pFooter"> Github</span>
+							<a href=""><i class="icon-linkedin"></i></a><span class="pFooter">Linkedin</span>
+							<a href=""><i class="icon-viadeo"></i></a><span class="pFooter">Viadeo</p>
+      					</div>
+					</div>
+			</div>
+		</div>
+
+		<div id="formations" class="leaguegothic white page">
+			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"></a>
+
+				<div id="contentWork">
+
+					<div id="contentLeft">
+						<h2 class="titleTr">School</h2>
+						<nav>
+							<ul>
+								
+									<p>2013 - 2014 :</p>
+									<li class="liLeft">
+										<span>Cycle ingenieur 3ème année</span> 
+										<p class="descriptif">EPSI LILLE - Ecole d'ingenierie informatique</p>
+									</li>
+								
+									<p>2011 - 2013 : </p>
+									<li class="liLeft">
+										<span>BTS IRIS</span> 
+										<p class="descriptif">BTS Informatique et reseaux pour l'industrie et les services techniques
+											OZANAM - LILLE
+										</p>
+									</li>
+
+									<p>2011 - 2013 : </p>
+									<li class="liLeft">
+										<span>BAC PRO</span> 
+										<p class="descriptif"> Bac Professionnel Systèmes electronique numérique 
+											EPIL - LILLE
+										</p>
+									</li>
+								
+							</ul>
+						</nav>
+					</div> 
+					<div id="contentRight">
+						<h2 class="titleTr">Work</h2>
+						<nav>
+							<ul>
+									<p>2013 : </p>
+									<li class="liLeft">
+										<span>Credit Agricole</span> 
+										<p class="descriptif">Auxiliaire vacances, contact télèphone, aide personnel
+										</p>
+									</li>
+								
+									<p>2011 :</p>
+									<li class="liLeft">
+										<span>AXA WebCenter</span> 
+										<p class="descriptif">Maintenance matériel informatique
+											Refonte du site intranet HTML / CSS
+										</p>
+									</li>
+								
+									<p>2009 - 2011 : </p>
+									<li class="liLeft">
+										<span>ElioMicro</span> 
+										<p class="descriptif"> Maintenance, diagnostic matériel informatique
+										</p>
+									</li>
+								
+							</ul>
+						</nav>
+					</div> 
+				</div>
+		</div>
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-      <div class="navbar navbar-default" role="navigation">
-       <img src="img/logo.png" alt="logo" />
-       <blockquote><span>(</span>Un retour  <span class="miniver">aux sources</span></blockquote>
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="">Accueil</a></li>
-            <li><a href="gite.html">Gîte</a></li>
-            <li><a href="balneo.html">Balnéothérapie</a></li>
-            <li><a href="tarifs.html">Tarifs</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="liens.html">Liens utiles</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-        <section id="index">
-            <a href="index.html"><img src="img/fr.gif" alt="fr" /></a>
-            <a href="EN/index.html"><img src="img/en.gif" alt="en" /></a>
-            <div id="livret">
-              <a href="files/livret accueil1 mars 2014.pdf" target="about_blanck"><img src="img/pdf.png" />Télécharger notre livret d'accueil</a>
-            </div>
-    <h1>Bienvenue...<span> <br>Chez Parenthèse Champètre, le gîte d'Isabelle et Jean-Pierre Danet</span></h1>
-        <div id="wowslider-container1">
-              <div class="ws_images">
-                <ul>
-                  <li><img src="data1/images/dsc_0040.jpg" alt="Gîte" title="Gîte" id="wows1_0"/></li>
-                  <li><img src="data1/images/coucher_soleil_jardin.jpg" alt="coucher soleil jardin" title="coucher soleil " id="wows1_1"/></li>
-                  <li><img src="data1/images/dsc_00271.jpg" alt="Salle à manger" title="Salle à manger" id="wows1_3"/></li>
-                  <li><img src="data1/images/dsc_0135.jpg" alt="Table de massage" title="Table de massage" id="wows1_4"/></li>
-                  <li><img src="data1/images/dsc_0100.jpg" alt="Balnéothérapie" title="Balnéothérapie" id="wows1_5"/></li>
-                </ul>
-              </div>
-              <div class="ws_bullets">
-                <div>
-                  <a href="#" title="DSC_0040"><img src="data1/tooltips/dsc_0040.jpg" alt="DSC_0040"/>1</a>
-                  <a href="#" title="coucher soleil jardin"><img src="data1/tooltips/coucher_soleil_jardin.jpg" alt="coucher soleil jardin"/>2</a>
-                  <a href="#" title="DSC_0027"><img src="data1/tooltips/dsc_0027.jpg" alt="DSC_0027"/>4</a>
-                  <a href="#" title="DSC_0135"><img src="data1/tooltips/dsc_0135.jpg" alt="DSC_0135"/>5</a>
-                  <a href="#" title="DSC_0100"><img src="data1/tooltips/dsc_0100.jpg" alt="DSC_0100"/>6</a>
-                </div>
-              </div>
-              <div class="ws_shadow"></div>
-        </div>
+		<div id="projets" class="leaguegothic white page">
+			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"></a>
 
-            <p>PARENTHESE CHAMPETRE vous accueille à Neuf-Berquin, petit village des Flandres (1200 habitants). Il est situé sur la grande voie romaine de Cassel à Arras, à l'ouest de Lille (40 km).</p>
-            <p>Construit en 2013 dans les dépendances de cette ancienne fermette du début du XXème siècle, c'est le premier gîte d'accueil du village. Il vous propose calme et détente dans une région touristique en plein essor, très riche en patrimoines historique, culturel, industriel, agricole ... aux portes de la Flandre intérieur, de la métropole lilloise et de la Belgique.</p>
-            <p>Profitez de votre séjour pour vous accorder un soin de bien-être dans son espace balnéothérapie (moyennant participation et sur réservation).</p>
-            <p>La famille Danet est à votre disposition afin que vous passiez un agréable séjour dans la région, laissez-vous surprendre par ses richesses, osez vous accorder cette "parenthèse champêtre".</p>
-            <h1>Pour en voir un peu plus ...</h1>
+			<div id="contentWork">Mes projets : </div>
+			
+		</div>
 
-             <div id="zoomImageHaut">
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/DSC_0038.jpg"><img class="imgAcceuil" src="img/Accueil/DSC_0038.jpg" class="bordered" alt="" /></a>
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/DSC_0036.jpg"><img class="imgAcceuil" src="img/Accueil/DSC_0036.jpg" class="bordered" alt="" /></a>
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/cuisine.jpg"><img class="imgAcceuil" src="img/Accueil/cuisine.jpg" class="bordered" alt="" /></a>
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/DSC_0056.jpg"><img class="imgAcceuil" src="img/Accueil/DSC_0056.jpg" class="bordered" alt="" /></a>
-            </div>
-            <div id="zoomImageBas">
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/DSC_0262.jpg"><img class="imgAcceuil" src="img/Accueil/DSC_0262.jpg" class="bordered" alt="" /></a>
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/DSC_0141.jpg"><img class="imgAcceuil" src="img/Accueil/DSC_0141.jpg" class="bordered" alt="" /></a>
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/DSC_0026.jpg"><img class="imgAcceuil" src="img/Accueil/DSC_0026.jpg" class="bordered" alt="" /></a>
-              <a class="zoombox zgallery1" title="This is a racoon" href="img/Accueil/DSC_0101.jpg"><img class="imgAcceuil" src="img/Accueil/DSC_0101.jpg" class="bordered" alt="" /></a>
-            </div>
-    </section>
-
-    <footer>
-        <div class="footerLogo">
-          <img src="img/chequevacances.png" alt="cheque-vacances" width="50" height="50" />
-          <img class="clevacances" src="img/clevacances.png" alt="cle-vacances" width="100" />
-        </div>
-        <p class="footerp">website developed by: <a href="http://camilledewavrin.github.io/" target="about_blanck">Camille D</a> et <a href="http://charleslamarque.com/" target="about_blanck">Charles L</a></p>
-
-        <p>Copyright "Parenthèse champètre" 2014 - Gite et espace balneotherpie</p>
-    </footer>
-  
+		<div id="competences" class="leaguegothic white page clickable">
+				<div class="center w400 " style="margin-top:20%;">
+				
+				<div style="font-size:47px">Click anywhere to head back.</div>
+			</div>
+		</div>
 
 
+	</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="engine1/wowslider.js"></script>
-    <script type="text/javascript" src="engine1/script.js"></script>
-    <script type="text/javascript" src="http://grafikart.fr/js/main.js"></script>    <script type="text/javascript" src="zoombox.js"></script> 
-    <script type="text/javascript"> 
-//<![CDATA[
-    $(function(){
-        $('a.zoombox').zoombox();
-    });
-//]]>
-</script>    
-  </body>
+
+	<div id="leftControl" class="control">
+		<img id="leftArrow" class="arrow left" style="width:60px" src="demo/assets/arrowleft2.png"></img>
+		<div id="leftText" class="dirText" style="float:right"> Test</div>
+	</div>
+
+	<div id="rightControl" class="control">
+		<img id="rightArrow" class="arrow right" style="width:60px" src="demo/assets/arrowright2.png"></img>
+		<div id="rightText" class="dirText" style="float:left"> Test</div>
+	</div>
+
+	<div id="topControl" class="control center" style="width:145px;left:45%;">
+		<img id="topArrow" class="arrow left" style="height:60px" src="demo/assets/arrowtop2.png"></img>
+		<div id="topText" class="dirText txtcenter" > Test</div>
+	</div>
+
+	<div id="bottomControl" class="control center" style="width:145px;left:45%;bottom:0px;">
+		<div id="bottomText" class="dirText txtcenter"> Test</div>
+		<img id="bottomArrow" class="arrow left" style="height:60px" src="demo/assets/arrowbottom2.png"></img>
+
+	</div>
+
+
+</body>
 </html>
