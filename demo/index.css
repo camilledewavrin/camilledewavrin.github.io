@@ -92,12 +92,28 @@ p{
 	top:40%;
 }
 
+/* CONTENU */
 #contentWork{
+	margin: 5% 0 0 18%;
+	width: 70%;
+	background: rgba(33,33,33,0.4);
+	height: 72%;
+	font-size: 20px;
+	overflow-y : auto;
+}
+
+#contentWork2{
 	margin: 9% 0 0 18%;
 	width: 70%;
 	background: rgba(33,33,33,0.4);
-	height: 64.3%;
+	height: 75%;
 	font-size: 20px;
+	overflow-y : auto;
+}
+
+#contentGlobalMe{
+	margin-top: -5%;
+	margin-bottom: 10%;
 }
 
 h1#titleAboutMe{
@@ -108,15 +124,16 @@ h1#titleAboutMe{
 #contentLeft{
 	width: 50%;
 	float: left;
-	margin-top: -1%;
-	
+	height: 94%;
+	margin-top: -3%;
 }
 
 #contentRight{
 	width: 50%;
 	margin-left: -1%;
 	float: right;
-	margin-top: -1%;
+	height: 94%;
+	margin-top: -3%;
 }
 
 .liLeft{
@@ -131,6 +148,7 @@ h1#titleAboutMe{
 	margin-left: 15%;
 	margin-top: 13%;	
 	vertical-align: middle;
+	border-radius: 128px;
 }
 /*.bordure{
 	border-left: 2px solid #FFF;
@@ -153,6 +171,9 @@ p.descriptif{
 
 .titleTr{
 	font-family: 'Audiowide', cursive;
+	text-align: center;
+	color: #FFA500;
+	margin-bottom: 1%;
 }
 
 .aboutme{
@@ -163,10 +184,8 @@ p.descriptif{
 
 /* ======Footer=======*/
 .footerLogo{
-	margin-top: 8%;
-
+	margin-top: 5%;
 	text-decoration: none;
-
 }
 
 span.pFooter{
@@ -225,5 +244,163 @@ address{
 
 a{
 	text-decoration: none;
-	color: orange;
+	color: #FFA500;
 }
+
+/* JAUGE CIRCULAIRE */
+div.round
+{	/*margin-left: 80%;*/
+	margin-top: 8%;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin-right: 25px;
+}
+div.round input {
+	position: absolute;
+	top: 38px; left: 35px;
+	font-size: 34px;
+	text-align: center;
+	width: 80px;
+	border: none;
+	background: none;
+	outline: none;
+}
+div.round canvas{
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+nav.contentCercle {
+    display: inline-block;
+	margin-left: 10%;
+    text-align: center;
+    margin-top: -4%;
+	height: 45%;
+}
+nav ul.listeCercle
+{
+    list-style-type: none;
+}
+nav li.mesCercle
+{
+    display: inline-block;
+    margin-right: 25px;
+    color: #FFF;
+}
+
+h4.nameCercle{
+	margin-top: -5%;
+	font-family: 'Della Respira', serif;
+	font-size: 0.8em;
+}
+
+/* hover effect, premiere vu (image) */
+.view-first img { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    /*background-color: rgba(219,127,8, 0.7);*/ 
+    background: #00DFDB;
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+/* vue = bandeau qui apparrait */
+.view {
+    width: 280px;
+    height: 170px;
+    margin: 10px;
+    float: left;
+    border: 6px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(assets/bgimg.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 15px 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+    margin-right: 13%;
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+    margin-right: 6%;
+	margin-top: -6%;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+/* effet demo 1  http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/ */
+.view-first:hover img { 
+    transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+    opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+
+#contentImageProjet{
+	margin-left: 10px;
+}
+

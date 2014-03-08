@@ -18,7 +18,6 @@ $(document).ready(function () {
 	parallax.add($("#index"))
 			.add($("#competences"))
 			.add($("#formations"))
-			.add($("#projets"))
 			.add($("#me"));
 
 	parallax.background = $("body");
@@ -37,22 +36,18 @@ $(document).ready(function () {
 
 	parallax.formations.onload=function(){
 		setLeft("me","Me !");
-		setBottom("competences", "skills");
-		setTop("projets", "projects");	
+		setBottom("competences", "Projects");	
 	};
 
 	parallax.competences.onload=function(){
 		setTop("formations", "Trainings");
+		setLeft("me","Me !");
 	};
 
 	parallax.me.onload=function(){
 		setLeft("index", "Home");
 		setRight("formations","Trainings");
 	};
-
-	parallax.projets.onload=function(){
-		setBottom("formations", "Trainings");
-	}
 
 	//Sets the correct triggers for the arrows, plus arrow keys
 	function setRight(page, text){
