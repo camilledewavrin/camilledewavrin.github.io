@@ -404,3 +404,29 @@ h4.nameCercle{
 	margin-left: 10px;
 }
 
+/* page acceuil fleche */
+.key{
+font-family: 'Inconsolata';
+color: black;
+display: inline-block;
+padding: 6px 10px 3px 10px;
+font-size: 25px;
+line-height: 30px;
+text-shadow: none;
+letter-spacing: 0;
+bottom: 5px;
+position: relative;
+ 
+-moz-border-radius: 10px;
+ 
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background: white;
+box-shadow: rgba(0, 0, 0, 0.1)0 2px 5px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 2px 5px;
+ 
+-moz-box-shadow: rgba(0, 0, 0, 0.1) 0 2px 5px;
+ 
+-o-box-shadow: rgba(0, 0, 0, 0.1) 0 2px 5px;
+}
