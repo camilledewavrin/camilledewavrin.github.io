@@ -213,11 +213,11 @@ span.pFooter{
 
 .bouton, .bouton:active {
 	background: #F28F22;
-	background: -webkit-linear-gradient( #FF6A4F, #D33B11); 
+	/*background: -webkit-linear-gradient( #FF6A4F, #D33B11); 
 	background: -moz-linear-gradient( #FF6A4F, #D33B11); 
 	background: -ms-linear-gradient( #FF6A4F, #D33B11); 
 	background: -o-linear-gradient( #FF6A4F, #D33B11); 
-	background: linear-gradient( #F28F22, #BD5D19);
+	background: linear-gradient( #F28F22, #BD5D19);*/
 	}
 .bouton:hover{
 	background: #F79E46;
@@ -230,7 +230,7 @@ span.pFooter{
 .bouton:active{box-shadow: 1px 1px 10px #D33B11 inset, 0 1px 0 rgba( 255, 255, 255, 0.4);}
 
 address{
-	margin-right: 25%;
+	margin-right: 40%;
 	display: inline-block;
 	vertical-align: top;
 }
