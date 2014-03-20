@@ -1,11 +1,10 @@
 body{
 	overflow:hidden;
-	/*background: #344967;*/
 	/*background-image: url(../images/background.jpeg);
 	/*background-size: 100%;*/
 	/*background: #60d7a9;*/
 	background-color: #1a1a1a;
-	background-image: url(http://www.transparenttextures.com/patterns/carbon-fibre-big.png);
+	background-image: url(../images/carbon-fibre.png);
 }
 
 .noanchor:link, .noanchor:visited, .noanchor:active {
