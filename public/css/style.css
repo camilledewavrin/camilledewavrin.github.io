@@ -104,7 +104,7 @@ p{
 }
 
 #contentGlobalMe{
-	margin-top: -5%;
+	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
@@ -116,16 +116,14 @@ h1#titleAboutMe{
 #contentLeft{
 	width: 50%;
 	float: left;
-	height: 94%;
-	margin-top: -3%;
+	height: auto;
 }
 
 #contentRight{
 	width: 50%;
 	margin-left: -1%;
 	float: right;
-	height: 94%;
-	margin-top: -3%;
+	height: auto;
 }
 
 .liLeft{
@@ -165,7 +163,7 @@ p.descriptif{
 	font-family: 'Audiowide', cursive;
 	text-align: center;
 	color: #FFA500;
-	margin-bottom: 1%;
+	margin-bottom: 3%;
 }
 
 .aboutme{
