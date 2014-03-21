@@ -136,8 +136,9 @@ h1#titleAboutMe{
 
 .avatar{
 	float: left;
-	margin-left: 15%;
-	margin-top: 13%;	
+	margin-left: 6%;
+	margin-top: 5%;
+	height: 70%;
 	vertical-align: middle;
 	border-radius: 128px;
 }
