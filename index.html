@@ -1,129 +1,236 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <!--[if IE]>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Parenthèse Champêtre | Accueil</title>
-    <link href="bootstrap/bootstrap.css" rel="stylesheet">
-    <link href="style/css/style.css" rel="stylesheet">    
+<html>
+<head>
+	<script type="text/javascript" src="public/libs/jquery.js"></script>
+	<link rel="Stylesheet" type="text/css" href="public/libs/design.css" />
+	<link rel="icon" type="image/png" href="public/images/avatar2.png" />
+	<title>Camille Dewavrin</title>
 
-    <!--  DEDOSLIDE   -->
+	<script type="text/javascript" src="scripts/parallax.js"></script>
+	<script type="text/javascript" src="scripts/index.js"></script>
+	<link rel="Stylesheet" type="text/css" href="public/css/style.css" />
 
-    <link rel="stylesheet" href="style/css/animate.css">
-    <link rel="stylesheet" href="style/css/jquery.desoslide.css">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <script src="style/js/jquery.js"></script>
-    <script src="style/js/jquery.desoslide.js"></script>
-    <script src="style/js/highlight.min.js"></script>
+	<link rel="stylesheet" href="public/css/fontello.css">
+    <link rel="stylesheet" href="public/css/animation.css">
+</head>
+<body>
 
-    <script src="style/js/monScript.js"></script>
-  </head>
-  <body>
-   
-   <section class="content_all">
-      <section class="header">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-4 ">
-              <img class="logo" src="style/image/logo-off1.png">
-          </div>
-          <div class="col-md-4 ">
-            <div class="col-xs-4 col-xs-offset-9">
-                <a href="index.html"><img src="style/image/icon/fr.gif"></a>
-                <a href="EN/index.html"><img src="style/image/icon/en.gif"></a>
-           </div>
-          </div>
-        </div>
-      </section> <!-- fin section header   -->
-      <section class="content_menu">
-        <div class="row">
-            <div class="col-lg-12 ">
-              <div class="navbar navbar-default" role="navigation">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-                <div class="collapse navbar-collapse">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Accueil</a></li>
-                    <li><a href="gite.html">Gîte</a></li>
-                    <li><a href="balneo.html">Balnéothérapie</a></li>
-                    <li><a href="tarifs.html">Tarifs</a></li>
-                    <li><a href="contact.html">Contact / Accès</a></li>
-                    <li><a href="liens.html">Découvrir</a></li>
-                  </ul>
-                </div><!--/.nav-collapse -->
-              </div>
-            </div><!-- menu col -->
-          </div>
-      </section>  <!-- fin section menu   -->
-      <section class="content">
-        <div class="row">
-          <div class="col-lg-4 gauche">
-            <p class="accroche menu">« Bienvenue </br>chez Parenthèse champêtre,</br> notre gite paisible aux portes</br> de la Flandre Intérieure.»</p>
-            <p class="texte">Isabelle et Jean Pierre vous accueillent pour un séjour de détente dans une région riche en patrimoines à proximité de Lille et de la Belgique</p></br>
- 
-            <p class="texte">Pour une détente optimale, accordez vous une pause de bien être dans notre espace balnéothrapie attenant.</p>
-          </div>
-         
-          <div class="col-lg-8">
+	<div class="container">
 
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div id="demo3_main_image" class="inline-block"></div>
-                        </div>
-                    </div>
+		<div id="index" class="leaguegothic white page">
+			<img src="public/images/avatar.png" class="avatar">
+			<div id="titlebox" class="f2 lghtgrey">
 
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <ul id="demo3_thumbs" class="list-inline">
-                                <li>
-                                    <a href="style/image/une.jpg">
-                                        <img src="style/image/thumb/deux_thumb.jpg" alt="Bird" data-desoslide-caption="A test"> 
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="style/image/deux.jpg">
-                                        <img src="style/image/thumb/deux_thumb.jpg" alt="Flower" data-desoslide-caption="A test">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="style/image/trois.jpg">
-                                        <img src="style/image/thumb/deux_thumb.jpg" alt="Butterfly" data-desoslide-caption="A test" >
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="style/image/quatre.jpg">
-                                        <img src="style/image/thumb/deux_thumb.jpg" alt="Rose" data-desoslide-caption="A test">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+				<div class="f5 white">Welcome on my website,</div>
+				If you want to know a little more about me, click on the right arrow.  Let's go ! <span class="key">→</span> <span id="FlecheArbo"></span>
+			</div>
+		</div> <!-- fermeture div page home gestion parallax -->
 
-        </div>
-      </section> <!-- fin section content   -->
-      
-      <div id="footer">
-        <div class="row">
-              <p class="texte_footer">Gite Parenthèse champètre dans le Nord Pas de Calais - 4 rue du Moulin 59940 NEUF BERQUIN</br>
- 
-                Isabelle et Jean Pierre DANET - Tél + (33) 3 28 40 43 70 -  + (33) 6 84 58 59 84</br>
-                <a href="http://www.parenthesechampetre.fr" target="about_blank">www.parenthesechampetre.fr</a>  |  </a>Email : contact@parenthesechampetre</p>
-        </div>
-      </div>
-    
-  </section> <!-- fin section content All   -->
-      
+		<div id="me" class="leaguegothic white page f2">
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/bootstrap.min.js"></script>
-  </body>
+			<div class="w960 center">
+
+				<div class="right"><img src="public/images/PhotoPerso2.jpg" style="width:200px;"><br><span class="calibri f0"></span></div>
+					<div id="contentGlobalMe">
+						<h1 id="titleAboutMe">Hey, I'm Camille</h1>
+							<div id="contentMe">
+								<p class= "aboutme">I'm a french student developper from EPSI, computer engineering, 
+									school located on the North of France.</p>
+								<p class= "aboutme">I passionate by a web delopment and a news technologies.</p>
+								<p class= "aboutme">My last graduate : BTS : 2 years technical degree in industrial computer.</p>
+								<p class= "aboutme">Otherwise, I am someone reserved, calm. I like look a TV Shows and to play FIFA  .</p>
+							</div> <!-- fin div du contenu -->
+					</div>
+							<div class="footerLogo"> 
+									<address>
+										<a href="mailto:camilledewavrin@hotmail.fr" class="bouton">Contact me</a><p class="CV">or download my <a href="public/images/CV-2014.pdf" target="about_blanck">CV</a></p>
+									</address>
+
+								<a href="https://twitter.com/Kamelote59" target="about_blanck"><i class="icon-twitter" ></i></a> <span class="pFooter">Twitter</span>
+								<a href="https://github.com/camilledewavrin" target="about_blanck"><i class="icon-github" ></i></a> <span class="pFooter"> Github</span>
+								<a href=""><i class="icon-linkedin" target="about_blanck"></i></a><span class="pFooter">Linkedin</span>
+	      					</div>  <!-- fin div du footer -->		
+				</div> <!-- fermeture div page me -->
+		</div> <!-- fermeture div page me gestion parallax -->
+
+		<div id="formations" class="leaguegothic white page">
+				<div id="contentWork">
+					<div id="contentLeft">
+						<h2 class="titleTr">School</h2>
+						<nav>
+							<ul>
+									<p>2013 - 2014 :</p>
+									<li class="liLeft">
+										<span>Cycle ingenieur 3ème année</span> 
+										<p class="descriptif">EPSI LILLE - Ecole d'ingenierie informatique</p>
+									</li>
+								
+									<p>2011 - 2013 : </p>
+									<li class="liLeft">
+										<span>BTS IRIS</span> 
+										<p class="descriptif">BTS Informatique et reseaux pour l'industrie et les services techniques
+											OZANAM - LILLE
+										</p>
+									</li>
+
+									<p>2011 - 2013 : </p>
+									<li class="liLeft">
+										<span>BAC PRO</span> 
+										<p class="descriptif"> Bac Professionnel Systèmes electronique numérique 
+											EPIL - LILLE
+										</p>
+									</li>
+							</ul>
+						</nav>
+					</div> <!-- fin contenu Left -->
+					<div id="contentRight">
+						<h2 class="titleTr">Work</h2>
+						<nav>
+							<ul>
+									<p>2013 : </p>
+									<li class="liLeft">
+										<span>Credit Agricole</span> 
+										<p class="descriptif">Auxiliaire vacances, contact télèphone, aide personnel
+										</p>
+									</li>
+								
+									<p>2011 :</p>
+									<li class="liLeft">
+										<span>AXA WebCenter</span> 
+										<p class="descriptif">Maintenance matériel informatique
+											Refonte du site intranet HTML / CSS
+										</p>
+									</li>
+								
+									<p>2009 - 2011 : </p>
+									<li class="liLeft">
+										<span>ElioMicro</span> 
+										<p class="descriptif"> Maintenance, diagnostic matériel informatique
+										</p>
+									</li>
+							</ul>
+						</nav>
+					</div> <!-- fin contenu Right -->
+					
+					<h2 class="titleTr">Skills</h2>
+					<nav class="contentCercle">	
+							<ul class="listeCercle">				
+								<li class="mesCercle">
+									<div class="round">
+										<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="80" data-color="#91c2ff"  />
+										<h4 class="nameCercle">HMTL</h4>
+									</div>
+								</li>
+
+								<li class="mesCercle">
+									<div class="round">
+										<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="40" data-color="#0171bb"/>
+										<h4 class="nameCercle">CSS</h4>
+									</div>
+								</li>
+								<li class="mesCercle">
+									<div class="round">
+										<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="20" data-color="#44D70F"/>
+										<h4 class="nameCercle">JAVASCRIPT</h4>
+									</div>
+								</li>
+								<li class="mesCercle">
+									<div class="round">
+										<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="40" data-color="#FFB700"/>
+										<h4 class="nameCercle">PHP</h4>
+									</div>
+								</li>
+							</ul>
+					</nav> <!-- fin 1er liste de jauge -->
+					<nav class="contentCercle">	
+								<ul class="listeCercle">				
+									<li class="mesCercle">
+										<div class="round">
+											<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="40" data-color="#FF0000"/>
+											<h4 class="nameCercle">MYSQL</h4>
+										</div>
+									</li>
+
+									<li class="mesCercle">
+										<div class="round">
+											<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="40" data-color="#FF00FF"/>
+											<h4 class="nameCercle">C++ / C#</h4>
+										</div>
+									</li>
+									<li class="mesCercle">
+										<div class="round">
+											<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="20" data-color="#787676"/>
+											<h4 class="nameCercle">JAVA</h4>
+										</div>
+									</li>
+									<li class="mesCercle">
+										<div class="round">
+											<input type="hidden" name="round" class="round" data-min="0" data-max="100" value="10" data-color="white"/>
+											<h4 class="nameCercle">BASH</h4>
+										</div>
+									</li>
+								</ul>
+					</nav> <!-- fin 2eme liste de jauge -->
+				</div> <!-- fin du content work -->
+		</div><!-- fermeture div page traning gestion parallax -->
+
+		<div id="competences" class="leaguegothic white page">
+				<div id="contentWork2"> 
+					<h2 class="titleTr">Projects</h2>
+					<div id="contentImageProjet">
+						<div class="view view-first">  
+	      					<img src="public/images/twitter.png" />  
+						     <div class="mask">  
+							     <h2>Twitter</h2> 
+							     <p>My first website / Portfolio</p> 
+							      <a href="#" class="info" target="about_blanck">See More</a>
+						     </div> 
+						</div> 
+						<div class="view view-first">  
+	      					<img src="public/images/sgenerator.png" />  
+						     <div class="mask">  
+						     	<h2>Soft Generator</h2> 
+							     <p>Trouver tous vos soft !</p> 
+							      <a href="#" class="info" target="about_blanck">See More</a>
+						     </div> 
+						</div> 
+						<div class="view view-first">  
+	      					<img src="public/images/parenthese.png" />  
+						     <div class="mask">  
+							     <h2>Parenthèse Champêtre</h2> 
+							     <p>Location de Gîte</p> 
+							      <a href="http://www.parenthesechampetre.fr/" class="info" target="about_blanck">See More</a>
+						     </div> 
+						</div> 
+					</div>	
+				</div>
+		</div><!-- fermeture div page competences gestion parallax -->
+	</div><!-- fermeture div total -->
+
+
+	<div id="leftControl" class="control">
+		<img id="leftArrow" class="arrow left" style="width:60px" src="public/images/arrowleft2.png"></img>
+		<div id="leftText" class="dirText" style="float:right"> Test</div>
+	</div>
+
+	<div id="rightControl" class="control">
+		<img id="rightArrow" class="arrow right" style="width:60px" src="public/images/arrowright2.png"></img>
+		<div id="rightText" class="dirText" style="float:left"> Test</div>
+	</div>
+
+	<div id="topControl" class="control center" style="width:145px;left:45%;">
+		<img id="topArrow" class="arrow left" style="height:60px" src="public/images/arrowtop2.png"></img>
+		<div id="topText" class="dirText txtcenter" > Test</div>
+	</div>
+
+	<div id="bottomControl" class="control center" style="width:145px;left:45%;bottom:0px;">
+		<div id="bottomText" class="dirText txtcenter"> Test</div>
+		<img id="bottomArrow" class="arrow left" style="height:60px" src="public/images/arrowbottom2.png"></img>
+
+	</div>
+
+<script type="text/javascript"  src="scripts/app.js"></script>
+
+</body>
 </html>
