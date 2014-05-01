@@ -10,31 +10,30 @@
     <link href="bootstrap/bootstrap.css" rel="stylesheet">
     <link href="style/css/style.css" rel="stylesheet">    
 
-    <!--  DEDOSLIDE   -->
-    <link rel="stylesheet" href="style/css/animate.css">
-    <link rel="stylesheet" href="style/css/jquery.desoslide.css">
     <script src="style/js/jquery.js"></script>
-    <script src="style/js/jquery.desoslide.js"></script>
-    <script src="style/js/highlight.min.js"></script>
-    <script src="style/js/monScript.js"></script>
   </head>
   <body>
    
    <section class="content_all">
       <section class="header">
         <div class="row">
-          <div class="col-md-4  col-md-offset-4">
+          <div class="col-md-4">
+              <img id="logo_vacance" src="style/image/clevacances.png">
+          </div>
+          <div class="col-md-4">
               <img class="logo" src="style/image/logo-off1.png">
           </div>
-            <div class="col-xs-1 col-xs-offset-11">
-                <a href="contact.html"><img src="style/image/icon/fr.gif"></a>
-                <a href="EN/contact.html"><img src="style/image/icon/en.gif"></a>
+            <div class="col-md-4 ">
+            <div class="col-xs-4 col-xs-offset-9">
+                <a href="contact.html"><img class="drapeau" src="style/image/icon/fr.gif"></a>
+                <a href="EN/contact.html"><img class="drapeau" src="style/image/icon/en.gif"></a>
            </div>
+         </div>
         </div>
       </section> <!-- fin section header   -->
       <section class="content_menu">
         <div class="row">
-            <div class="col-lg-12 ">
+            <div class="col-lg-12 menu">
               <div class="navbar navbar-default" role="navigation">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -60,22 +59,52 @@
       </section>  <!-- fin section menu   -->
       <section class="content">
         <div class="row">
-          <div class="col-lg-4 gauche">
-
+          <div class="col-lg-6 gauche">
+              <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                    <label for="Nom" class="col-sm-2 control-label">Nom</label>
+                      <div class="col-sm-7">
+                        <input type="text"  class="form-control" id="Nom" placeholder="Nom">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="Prenom" class="col-sm-2 control-label">Prénom</label>
+                        <div class="col-sm-7">
+                          <input type="text"  class="form-control" id="Prenom" placeholder="Prénom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-7">
+                          <input type="email"  class="form-control" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="message" class="col-sm-2 control-label">Message</label>
+                        <div class="col-sm-7">
+                          <textarea class="form-control" rows="3" ></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                      </div>
+                    </div>
+                  </form>
           </div>
          
-          <div class="col-lg-8">
-
-
-        </div>
+          <div class="col-lg-6">
+                <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=4+rue+du+Moulin+59940+NEUF+BERQUIN&amp;aq=&amp;sll=50.529025,3.160487&amp;sspn=2.042828,5.410767&amp;ie=UTF8&amp;hq=&amp;hnear=4+Rue+du+Moulin,+59940+Neuf-Berquin&amp;ll=50.662186,2.652565&amp;spn=1.02096,2.705383&amp;t=h&amp;z=9&amp;output=embed"></iframe>           
+          </div>
+        </div>   
       </section> <!-- fin section content   -->
       
       <div id="footer">
         <div class="row">
               <p class="texte_footer">Gite Parenthèse champètre dans le Nord Pas de Calais - 4 rue du Moulin 59940 NEUF BERQUIN</br>
  
-                Isabelle et Jean Pierre DANET - Tél + (33) 3 28 40 43 70 -  + (33) 6 84 58 59 84</br>
-                <a href="http://www.parenthesechampetre.fr" target="about_blank">www.parenthesechampetre.fr</a>  |  </a>Email : contact@parenthesechampetre</p>
+                Isabelle et Jean Pierre DANET - Tél + (33) 3 28 40 43 70 -  + (33) 6 84 58 59 84 </a>Email : contact@parenthesechampetre</p>
+                <!-- <a href="http://www.parenthesechampetre.fr" target="about_blank">www.parenthesechampetre.fr</a>  |  -->
         </div>
       </div>
 

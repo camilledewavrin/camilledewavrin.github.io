@@ -27,10 +27,13 @@ body{
 	font-size: 17px;
 }
 
-div.col-xs-4.col-xs-offset-9{
-	margin-top: 25%;
+#logo_vacance {
+	width: 40%;
 }
 
+.drapeau{
+	width: 40%;
+}
 
 
 
@@ -44,7 +47,7 @@ div.collapse.navbar-collapse{
 
 }
 
-div.col-lg-12{
+div.col-lg-12.menu{
 	padding: 0 7px 0 7px;
 }
 
@@ -55,6 +58,10 @@ div.col-lg-12{
 .content {
 	position: relative;
 	height: auto;
+}
+
+div.col-lg-7{
+	padding-left: 0;
 }
 
 
@@ -70,18 +77,45 @@ div.col-lg-12{
 	padding-top: 20px;
 }
 
+p.texte{
+	font-size: 12px;
+}
+
+/*div.col-lg-12.thumb{
+	margin-top: 5%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div.col-lg-12.slide{
+	margin-top: 7%;
+	padding-left: 0;
+	padding-right: 0;
+}*/
+
 
 ul#demo3_thumbs{
 	margin-top: 2px;
+	margin-left: 2px;
 }
 
 
 
 /*				Gite				*/
 .compo{
-	height: 395px;
 	width: 100%;
 }
+
+
+/*				Balnéo				*/
+.bulle{
+	color: red;
+	font-weight: bold;
+}
+
+
+/*				Contact				*/
+
 
 
 
@@ -97,7 +131,8 @@ ul#demo3_thumbs{
 	text-align: center;
 	font-family: Dayrom, serif;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 12px;
+	padding-top: 10px;
 }
 
 
