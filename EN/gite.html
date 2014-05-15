@@ -10,6 +10,7 @@
     <link href="../bootstrap/bootstrap.css" rel="stylesheet">
     <link href="../style/css/style.css" rel="stylesheet"> 
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>   
+    <link rel="stylesheet" type="text/css" href="style/css/zoombox.css">
   </head>
   <body>
    
@@ -59,26 +60,43 @@
       </section>  <!-- fin section menu   -->
       <section class="content">
         <div class="row">
-          <div class="col-lg-4 gauche">
-           </div> 
-          <div class="col-lg-8">
+          <div class="col-lg-5 gauche">
+            <p class="accroche menu">« Do not worry about a thing, we offer you all the comfort you need to spend a great time in vacation. »</p>
 
+              <p class="texte">Our B&B is a 45m² accommodation with a private entrance and up to 5 places: a bright and spacious room (bed for 2), a living room with a spare bed for one, a mezzanine easily reachable thanks to a miller’s ladder.</p>
+              <p class="texte">In order for you not to worry about a thing, Isabelle provides household linen.</p>
+              <p class="texte">
+                In the kitchen, you will find a fridge equipped with a freezer, a glass-ceramic hob, an electric oven, a micro-waves, a dishwasher and Tassimo coffee-machine.</p>
+                <p class="texte">
+                A TV is available in the living room. In the bathroom, you will find an Italian shower (floor level), toilet and a washing-machine.</p>
+                 <p class="texte">
+                You will also have access to a car-park, a private equipped patio and a garden.</p>
+           </div> 
+          <div class="col-lg-7">
+            <a class="zoombox zgallery1" title="" href="../style/image/compo_gite.jpg"><img src="../style/image/compo_gite.jpg" class="compo"></a>
            </div>
         </div>
       </section> <!-- fin section content   -->
       
       <div id="footer">
         <div class="row">
-              <p class="texte_footer">Gite Parenthèse champètre dans le Nord Pas de Calais - 4 rue du Moulin 59940 NEUF BERQUIN</br>
+              <p class="texte_footer">Gite Parenthèse Champètre dans le Nord  - 4 rue du Moulin 59940 NEUF BERQUIN</br>
  
-                Isabelle et Jean Pierre DANET - Tél + (33) 3 28 40 43 70 -  + (33) 6 84 58 59 84</br>
-                <a href="http://www.parenthesechampetre.fr" target="about_blank">www.parenthesechampetre.fr</a>  |  </a>Email : contact@parenthesechampetre</p>
+                Isabelle et Jean Pierre DANET - Tél + (33) 3 28 40 43 70 -  + (33) 6 84 58 59 84 </a>Email : contact@parenthesechampetre.fr</p>
+                <!-- <a href="http://www.parenthesechampetre.fr" target="about_blank">www.parenthesechampetre.fr</a>  |  -->
         </div>
       </div>
     
   </section> <!-- fin section content All   -->
       
-
+<script type="text/javascript" src="style/js/zoombox.js"></script>  <script type="text/javascript" src="http://grafikart.fr/js/main.js"></script> 
+ <script type="text/javascript"> 
+//<![CDATA[
+    $(function(){
+        $('a.zoombox').zoombox();
+    });
+//]]>
+</script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../bootstrap/bootstrap.min.js"></script>
   </body>

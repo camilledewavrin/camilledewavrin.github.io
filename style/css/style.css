@@ -12,8 +12,12 @@ body{
 	margin : 0.5% 20%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 12px #555;
-	/*opacity: 0.9;*/
+	opacity: 0.9;
 	padding-bottom: 0.5%;
+}
+
+img{
+	opacity: 1;
 }
 
 /*   			HEADER   			*/ 
@@ -40,6 +44,9 @@ body{
 	width: 45%;
 }
 
+.col-xs-offset-9{
+	margin-top: 1%;
+}
 
 
 /* 				NAV BAR				 */ 
@@ -143,6 +150,10 @@ ul#demo3_thumbs{
 	background-color: rgba(189, 214,60, 0.8);
 	border-color: rgba(189, 214,60, 0.8);
 	color: #777777;
+}
+
+iframe{
+	margin-top: 5%;
 }
 
 
