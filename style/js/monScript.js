@@ -1,6 +1,6 @@
 $(function() {
 	/* Third demo */
-	$('#demo3_thumbs').desoSlide({
+	/*$('#demo3_thumbs').desoSlide({
 		main: {
 			container: '#demo3_main_image',
 			cssClass: 'img-responsive'
@@ -11,6 +11,13 @@ $(function() {
 			enable: false,
 			keys: false
 		}
+	});*/
+
+	$('.bxslider').bxSlider({
+ 		 pagerCustom: '#bx-pager',
+ 		 auto : true,
+ 		 adaptiveHeight: true,
+ 		 slideMargin: 20
 	});
 
 
