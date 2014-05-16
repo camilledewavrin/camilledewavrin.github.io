@@ -112,9 +112,10 @@ div.col-lg-7{
 	box-shadow: 0 0 5px #ccc;
 }
 
-/*.accroche.menu{
-	padding-top: 20px;
-}*/
+.accroche.accueil{
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
 
 p.texte{
 	font-size: 12px;
@@ -138,6 +139,11 @@ ul#demo3_thumbs{
 	width: 100%;
 }
 
+.bandeauGite{
+	width: 100%;
+	margin-top: 10%;
+}
+
 
 /*				Balnéo				*/
 .bulle{
@@ -146,11 +152,24 @@ ul#demo3_thumbs{
 	margin-bottom: 0px;
 }
 
+.bandeauBalneo{	
+	margin-top: -1%;
+	float: right;
+}
+
+.bandeauBalneo.EN{
+	margin-top: 3%;
+}
+
 
 /*				TARIFS				*/
 .fondtd{
 	background-color: #E6E6E6;
+}
 
+.bandeauTarif{
+	margin-top: -2%;
+	float: right;
 }
 
 .fondtdvert{
