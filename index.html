@@ -13,7 +13,7 @@
     <link href="bootstrap/bootstrap.css" rel="stylesheet">
     <link href="style/css/style.css" rel="stylesheet">    
     <link rel="stylesheet" href="style/css/jquery.bxslider.css">
-
+    <link rel="stylesheet" type="text/css" href="style/css/zoombox.css">
     <!-- Jquery  -->
     <script src="style/js/jquery.js"></script>
     <script src="style/js/jquery.bxslider.min.js"></script>
@@ -77,10 +77,10 @@
           <div class="col-lg-8">
 
               <ul class="bxslider">
-                  <li><img src="style/image/thumb/une.jpg" /></li>
-                  <li><img src="style/image/thumb/deux.jpg" /></li>
-                  <li><img src="style/image/thumb/trois.jpg" /></li>
-                  <li><img src="style/image/thumb/une.jpg" /></li>
+                  <li><img src="style/image/une.jpg" /></li>
+                  <li><img src="style/image/deux.jpg" /></li>
+                  <li><img src="style/image/trois.jpg" /></li>
+                  <li><img src="style/image/quatre.jpg" /></li>
               </ul>
 
                 <div id="bx-pager">
@@ -102,6 +102,14 @@
     
   </section> <!-- fin section content All   -->
 
+    <script type="text/javascript" src="style/js/zoombox.js"></script>  <script type="text/javascript" src="http://grafikart.fr/js/main.js"></script> 
+ <script type="text/javascript"> 
+//<![CDATA[
+    $(function(){
+        $('a.zoombox').zoombox();
+    });
+//]]>
+</script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/bootstrap.min.js"></script>
     

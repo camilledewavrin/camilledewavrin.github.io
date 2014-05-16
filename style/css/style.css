@@ -13,7 +13,7 @@ body{
 	margin : 0.5% 20%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 12px #555;
-	/*opacity: 0.9;*/
+	opacity: 0.9;
 	padding-bottom: 0.5%;
 }
 
@@ -24,7 +24,7 @@ img{
 /*   			HEADER   			*/ 
 .logo{
 	height: 80px;
-
+	margin-bottom: -10px;
 }
 
 .nav.navbar-nav a{
@@ -99,6 +99,7 @@ div.col-lg-7{
 
 #bx-pager a img{
 	border : 5px solid #fff;
+	margin: 2px;
 }
 
 #bx-pager a img{
@@ -107,7 +108,7 @@ div.col-lg-7{
 }
 
 #bx-pager a.active img{
-	border: solid #fff 7px;
+	border: solid #fff 6px;
 	box-shadow: 0 0 5px #ccc;
 }
 
