@@ -13,7 +13,7 @@ body{
 	margin : 0.5% 20%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 12px #555;
-	opacity: 0.9;
+	opacity: 0.85;
 	padding-bottom: 0.5%;
 }
 
@@ -23,8 +23,10 @@ img{
 
 /*   			HEADER   			*/ 
 .logo{
-	height: 80px;
-	margin-bottom: -10px;
+	height: 120px;
+	margin-bottom: -20px;
+	margin-top: -10px;
+	width: 120%;
 }
 
 .nav.navbar-nav a{
@@ -33,11 +35,11 @@ img{
 }
 
 #logo_vacance {
-	width: 30%;
+	width: 45%;
 }
 
 #logo_fb{
-	width: 11%;
+	width: 15%;
 }
 
 .drapeau{
@@ -45,7 +47,7 @@ img{
 }
 
 .col-xs-offset-9{
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
 
@@ -91,9 +93,8 @@ div.col-lg-7{
 
 /*  			Acceuil 			 */
 .accroche{
-	font-size: 13.5px;
+	font-size: 21px;
 	color: #dc011b;
-	font-weight: bold;
 	line-height: 17px;
 }
 
@@ -140,7 +141,7 @@ ul#demo3_thumbs{
 }
 
 .bandeauGite{
-	width: 100%;
+	width: 85%;
 	margin-top: 10%;
 }
 
@@ -153,8 +154,7 @@ ul#demo3_thumbs{
 }
 
 .bandeauBalneo{	
-	margin-top: -1%;
-	float: right;
+	width: 85%;
 }
 
 .bandeauBalneo.EN{
@@ -168,8 +168,12 @@ ul#demo3_thumbs{
 }
 
 .bandeauTarif{
-	margin-top: -2%;
+	width: 75%;
 	float: right;
+}
+
+.fa{
+	width: 4%;
 }
 
 .fondtdvert{
