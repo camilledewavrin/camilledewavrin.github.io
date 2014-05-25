@@ -26,7 +26,7 @@ img{
 	height: 120px;
 	margin-bottom: -20px;
 	margin-top: -10px;
-	width: 110%;
+	width: 100%;
 }
 
 .nav.navbar-nav a{
@@ -34,16 +34,16 @@ img{
 	font-size: 17px;
 }
 
-#logo_vacance {
-	width: 40%;
-}
-
 #logo_fb{
-	width: 15%;
+	height: 30px;
 }
 
 .drapeau{
-	width: 40%;
+	height: 24px;
+}
+
+div.col-md-3.drapeau{
+	padding-left: 17%;
 }
 
 .col-xs-offset-9{
@@ -146,7 +146,7 @@ ul#demo3_thumbs{
 }
 
 .bandeauGite{
-	width: 85%;
+	width: 260px;
 	margin-top: 5%;
 }
 
@@ -234,5 +234,25 @@ iframe{
 @media (max-width: 1024px){
 	.content_all{
 			margin : 0.5% 4%;
+	}
+}
+
+@media (min-width: 1900px){
+	.content_all{
+			margin : 7% 20%;
+	}
+
+	.logo{
+		height: 155px;
+	}
+}
+
+@media (min-width: 2500px){
+	.content_all{
+			margin : 8% 20%;
+	}
+
+	.logo{
+		height: 155px;
 	}
 }
