@@ -43,7 +43,8 @@ img{
 }
 
 div.col-md-3.drapeau{
-	padding-left: 17%;
+	padding-left: 16%;
+	margin-top:  0.5%;
 }
 
 .col-xs-offset-9{
@@ -101,6 +102,11 @@ div.col-lg-7{
 	font-size: 21px;
 	color: #dc011b;
 	line-height: 17px;
+}
+
+#bx-pager{
+	text-align: center;
+	padding-right: 1%;
 }
 
 #bx-pager a img{
@@ -229,6 +235,12 @@ iframe{
 	.content_all{
 			margin : 0.5% 2%;
 	}
+
+	body{
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
 }
 
 @media (max-width: 1024px){
@@ -254,5 +266,14 @@ iframe{
 
 	.logo{
 		height: 155px;
+	}
+
+	body{
+		background-image: url(../../style/image/fondecran.jpg);
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		font-family: 'Lato', sans-serif;
+		font-size: 14px;
 	}
 }
