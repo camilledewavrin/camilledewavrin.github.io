@@ -89,6 +89,11 @@ div.col-lg-7{
 	/*padding-left: 0;*/
 }
 
+.encart{
+	position: relative;
+	bottom: 0;
+}
+
 
 
 /*  			Acceuil 			 */
@@ -142,7 +147,7 @@ ul#demo3_thumbs{
 
 .bandeauGite{
 	width: 85%;
-	/*margin-top: 10%;*/
+	margin-top: 5%;
 }
 
 
@@ -221,5 +226,13 @@ iframe{
 		height: auto;
 		min-height: 50px;
 	}
+	.content_all{
+			margin : 0.5% 2%;
+	}
+}
 
+@media (max-width: 1024px){
+	.content_all{
+			margin : 0.5% 4%;
+	}
 }
