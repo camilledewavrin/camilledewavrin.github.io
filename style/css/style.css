@@ -101,7 +101,7 @@ div.col-lg-7{
 .accroche{
 	font-size: 21px;
 	color: #dc011b;
-	line-height: 17px;
+	line-height: 24px;
 }
 
 #bx-pager{
@@ -165,7 +165,7 @@ ul#demo3_thumbs{
 }
 
 .bandeauBalneo{	
-	width: 85%;
+	width: 260px;
 }
 
 .bandeauBalneo.EN{
@@ -180,7 +180,7 @@ ul#demo3_thumbs{
 }
 
 .bandeauTarif{
-	width: 75%;
+	width: 260px;
 	float: right;
 }
 
