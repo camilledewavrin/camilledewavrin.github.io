@@ -10,7 +10,7 @@ body{
 .content_all{
 	background-color: #FFF;
 	height: auto;
-	margin : 0.5% 20%;
+	margin : 0.5% 20% 0;
 	border-radius: 10px;
 	box-shadow: 1px 1px 12px #555;
 	opacity: 0.85;
@@ -243,7 +243,7 @@ span.CC {
 		min-height: 50px;
 	}
 	.content_all{
-			margin : 0.5% 2%;
+			margin : 0.5% 2% 0;
 	}
 
 	body{
@@ -255,13 +255,13 @@ span.CC {
 
 @media (max-width: 1024px){
 	.content_all{
-			margin : 0.5% 4%;
+			margin : 0.5% 4% 0;
 	}
 }
 
 @media (min-width: 1900px){
 	.content_all{
-			margin : 7% 20%;
+			margin : 5% 20% 0;
 	}
 
 	.logo{
@@ -271,7 +271,7 @@ span.CC {
 
 @media (min-width: 2500px){
 	.content_all{
-			margin : 8% 20%;
+			margin : 8% 20% 0;
 	}
 
 	.logo{
