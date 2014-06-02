@@ -202,6 +202,7 @@ ul#demo3_thumbs{
 
 iframe{
 	margin-top: 5%;
+	width: 100%;
 }
 
 
@@ -222,6 +223,15 @@ iframe{
     font-weight: normal;
     font-size: 10px;
 	padding-top: 10px;
+}
+
+span.CC {
+	float: right;
+	margin-right: 4%;
+}
+
+#C{
+	margin-top : 11%;
 }
 
 
