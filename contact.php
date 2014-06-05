@@ -13,7 +13,7 @@ if(!empty($_POST)) {
   if(empty($phone)){  $valid=false; $erreurphone="Numéro de téléphone obligatoire";}
   if(empty($texte)){  $valid=false; $erreurtexte="message obligatoire"; }
   if($valid){ 
-     $to = "chabox59@gmail.com";
+     $to = "contact@parenthesechampetre.fr";
     //=====Définition du sujet.
     $subject = $nom. " a contacté le site";
     //=========
