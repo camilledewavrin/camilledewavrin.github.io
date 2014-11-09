@@ -20,8 +20,8 @@
 		/* Création du premier rond */
 		ctx.beginPath();
 		ctx.arc(75,75, 50, 0, 2*Math.PI);
-		ctx.lineWidth = 10;
-		ctx.strokeStyle = "#333333";
+		ctx.lineWidth = 6;
+		ctx.strokeStyle = "#959D9C";
 		ctx.shadowOffsetX=2;
 		ctx.shadowBlur= 5;
 		ctx.shadowColor = "#000";
@@ -31,7 +31,7 @@
 		/* Création du rond avec couleur */
 		var ctx = $color[0].getContext('2d');
 		ctx.arc(75,75, 50,-1/2 * Math.PI, ratio*2*Math.PI - 1/2 * Math.PI);
-		ctx.lineWidth = 10;
+		ctx.lineWidth = 6;
 		ctx.strokeStyle = color;
 		ctx.stroke();
 	})
