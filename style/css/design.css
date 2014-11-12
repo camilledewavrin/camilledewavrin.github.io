@@ -828,17 +828,23 @@ MEDIA QUERIES
   }
 }
 
-
+/* for 520px or less */
 @media screen and (max-width: 520px){
   nav#menu {
     margin-left: 0; 
   }
+
+  span.pFooter{
+  font-size: medium;
+  letter-spacing: 0px;
+}
 
     .main,
   .container > header {
     padding: 0 5em; 
   }
 }
+
 
 /* for 480px or less */
 @media screen and (max-width: 480px) {
