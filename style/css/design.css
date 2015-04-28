@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
 @font-face { font-family: 'LatoHairline'; 
   src: url('../../fonts/Lato-Hai-webfont.eot'); 
   src: url('../../fonts/Lato-Hai-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -48,7 +46,7 @@ a:hover {
 }
 
 .main {
-	max-width: 73.667em;
+	max-width: 60em;
 	/*min-height: 40em;*/
 }
 
@@ -75,8 +73,7 @@ nav#menu {
 }
 
 #Home{
-	background-color: rgba(211, 84, 0,0.95);
-  background-opacity : 0.93;
+	background-color: rgba(192, 57, 43,0.98);
 	min-height: 400px;
   height: auto;
   text-align: center;
@@ -85,47 +82,41 @@ nav#menu {
 }
 
 #Education{
-	background-color: rgba(243, 156, 18,0.95);
-  background-opacity : 0.93;
+	background-color: rgba(241, 196, 15,0.98);
 	min-height: 400px;
   height: auto;
 	width: 100%;
 }
 
 #Work{
-  background-color: rgba(52, 152, 219,0.95);
+  background-color: rgba(39, 174, 96,1.00);
   min-height: 400px;
   height: auto;
   width: 100%;
-  background-opacity : 0.93;
 }
 
 #Skill{
-	background-color: rgba(41, 128, 185,0.95) ;
-  background-opacity : 0.93;
+	background-color: rgba(22, 145, 190, 1.00);
 	min-height: 450px;
   height: auto;
 	width: 100%;
 }
 
 #Project{
-	background-color: rgba(52, 73, 94,0.95);
+	background-color: rgba(52, 152, 219,1.00);
 	min-height: 450px;
-  background-opacity : 0.93;
   height: auto;
 	width: 100%;
 }
 
 #Contact{
-	background-color: rgba(21, 40, 54, 0.95);
+	background-color: rgba(44, 62, 80,0.97);
 	min-height: 250px;
-  background-opacity : 0.93;
   height: auto;
 	width: 100%;
 }
 
 #Logo{
-  height: 50px;
   background: #1C1C1C;
   text-align: center;
 }
@@ -161,11 +152,6 @@ nav#menu {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-.contentAboutme{
-  display: inline-flex;
-  text-align: initial;
-  margin-top: 2%;
-}
 
 p{
   margin: 0 auto;
@@ -173,16 +159,14 @@ p{
 
 .right{
   padding-top: 3%;
-  padding-bottom: 2%;
 }
 
 .Aboutme {
-  padding-right: 2%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #fefefe;
   white-space: pre-line;
-  font-size: 19px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 19px;
   font-weight: bold;
 }
 
@@ -205,7 +189,6 @@ span.cd-date {
 }
  
 #cd-timeline::before {
-  /* this is the vertical line */
   content: '';
   position: absolute;
   top: 0;
@@ -227,11 +210,17 @@ span.cd-date {
   display: table;
 }
  
-.cd-timeline-block:after { clear: both; }
+.cd-timeline-block:after { 
+  clear: both; 
+}
  
-.cd-timeline-block:first-child { margin-top: 0; }
+.cd-timeline-block:first-child { 
+  margin-top: 0; 
+}
  
-.cd-timeline-block:last-child { margin-bottom: 0; }
+.cd-timeline-block:last-child { 
+  margin-bottom: 0; 
+}
 
  
 .cd-timeline-img {
@@ -255,11 +244,17 @@ span.cd-date {
   margin-top: -12px;
 }
  
-.cd-timeline-img.cd-picture { background: #75ce66; }
+.cd-timeline-img.cd-picture { 
+  background: #75ce66; 
+}
  
-.cd-timeline-img.cd-movie { background: #c03b44; }
+.cd-timeline-img.cd-movie { 
+  background: #c03b44; 
+}
  
-.cd-timeline-img.cd-location { background: #f0ca45; }
+.cd-timeline-img.cd-location { 
+  background: #f0ca45; 
+}
  
 .cd-timeline-content {
   position: relative;
@@ -278,9 +273,13 @@ span.cd-date {
   display: table;
 }
  
-.cd-timeline-content:after { clear: both; }
+.cd-timeline-content:after { 
+  clear: both; 
+}
  
-.cd-timeline-content h2 { color: #303e49; }
+.cd-timeline-content h2 {
+ color: #303e49; 
+}
  
 .cd-timeline-content p,
 .cd-timeline-content .cd-read-more,
@@ -290,7 +289,9 @@ span.cd-date {
 }
  
 .cd-timeline-content .cd-read-more,
-.cd-timeline-content .cd-date { display: inline-block; }
+.cd-timeline-content .cd-date { 
+  display: inline-block; 
+}
  
 .cd-timeline-content p {
   margin: 1em 0;
@@ -305,7 +306,9 @@ span.cd-date {
   border-radius: 0.25em;
 }
  
-.no-touch .cd-timeline-content .cd-read-more:hover { background-color: #bac4cb; }
+.no-touch .cd-timeline-content .cd-read-more:hover { 
+  background-color: #bac4cb; 
+}
  
 .cd-timeline-content .cd-date {
   float: left;
@@ -400,7 +403,7 @@ span.cd-date {
   -moz-border-radius: 0pt 0pt 0pt 5px;
   -webkit-border-radius: 0pt 0pt 0pt 5px;
   border-radius: 0pt 0pt 0pt 5px;
-  border-color: #3498db #3498db #E5CF33 #E5CF33;
+  border-color: #2ecc71 #2ecc71 #E5CF33 #E5CF33;
   opacity: 0.93;
   border-width: 10px;
 }
@@ -488,7 +491,7 @@ h4.nameCercle{
 .view-first .mask {
     opacity: 0;
     /*background-color: rgba(219,127,8, 0.7);*/ 
-    background: #00DFDB;
+    background: #2ecc71;
     transition: all 0.4s ease-in-out;
 }
 .view-first h2 {
@@ -568,7 +571,6 @@ h4.nameCercle{
     box-shadow: 0 0 5px #000;
 }
 
-/* effet demo 1  http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/ */
 .view-first:hover img { 
     transform: scale(1.1);
 } 
@@ -603,37 +605,26 @@ padding: 0.8em;
                                         CONTACT
 *************************************************************************************/
 .bouton {
-  width:auto; 
-  padding:20px 0; 
-  text-align:center; 
-  display: inline-block; 
-  float:left; 
-  margin:0 15px 0 0; 
-  border-radius:7px; 
-  box-shadow: 0 0 1px rgba( 0, 0, 0, 0.2), 0 -1px 0 rgba( 255, 255, 255, 0.1); 
-  font-size: 1em; 
-  width:120px; 
-  color:#333; 
-  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
+    display: inline-block;
+    padding: 10px 28px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.470;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: #c0392b;
+    color: #fff;
   }
 
-.bouton, .bouton:active {
-  background: #F28F22;
-  /*background: -webkit-linear-gradient( #FF6A4F, #D33B11); 
-  background: -moz-linear-gradient( #FF6A4F, #D33B11); 
-  background: -ms-linear-gradient( #FF6A4F, #D33B11); 
-  background: -o-linear-gradient( #FF6A4F, #D33B11); 
-  background: linear-gradient( #F28F22, #BD5D19);*/
+  .bouton:hover{
+    background: #e74c3c;
   }
-.bouton:hover{
-  background: #F79E46;
-  background: -webkit-linear-gradient( #F79E46, #C96928);
-  background: -moz-linear-gradient( #F79E46, #C96928);
-  background: -ms-linear-gradient( #F79E46, #C96928);
-  background: -o-linear-gradient( #F79E46, #C96928);
-  background: linear-gradient( #F79E46, #C96928);
-  }
-.bouton:active{box-shadow: 1px 1px 10px #D33B11 inset, 0 1px 0 rgba( 255, 255, 255, 0.4);}
 
 address{
   margin-right: 40%;
@@ -650,7 +641,7 @@ address{
 
 a{
   text-decoration: none;
-  color: #FFA500;
+  color: #e74c3c;
 }
 
 .footerLogo{

@@ -20,18 +20,15 @@
 		/* Création du premier rond */
 		ctx.beginPath();
 		ctx.arc(75,75, 50, 0, 2*Math.PI);
-		ctx.lineWidth = 6;
-		ctx.strokeStyle = "#959D9C";
-		ctx.shadowOffsetX=2;
-		ctx.shadowBlur= 5;
-		ctx.shadowColor = "#000";
+		ctx.lineWidth = 10;
+		ctx.strokeStyle = "#ecf0f1";
 		ctx.stroke();
 
 
 		/* Création du rond avec couleur */
 		var ctx = $color[0].getContext('2d');
 		ctx.arc(75,75, 50,-1/2 * Math.PI, ratio*2*Math.PI - 1/2 * Math.PI);
-		ctx.lineWidth = 6;
+		ctx.lineWidth = 11;
 		ctx.strokeStyle = color;
 		ctx.stroke();
 	})
