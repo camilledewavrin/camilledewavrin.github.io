@@ -64,7 +64,7 @@ nav#menu {
 
 #gauche {
   float:left;
-  width:45%;
+  /*width:45%;*/
   padding-left: 40%;
 }
 #droite {
@@ -876,7 +876,7 @@ MEDIA QUERIES
   }
 
   #gauche {
-    padding-left: 30%;
+    padding-left: 37%;
   }
 
   #header, #footer {
