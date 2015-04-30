@@ -18,12 +18,6 @@ body{
   background-position: center;
 }
 
-#background-opacity { /* div permettant de données un effet d'opacity sur background: */
-  z-index: -10;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(255, 255, 255, 0.18); /* L'opacite se regle ici */
-}
-
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 15px; padding: 0; margin: 0;}
 
@@ -55,7 +49,44 @@ nav#menu {
 	margin-left: 5%; 
 }
 
+#navbar {
+  background-color: transparent;/*#009688*/
+  color: white;
+  position: fixed;
+  top: 0px;
+  left : 0px;
+  height: 50px;
+  width: 100%;
+  text-align: center;    
+  z-index: 1000;    
+  display: none;    
+}
 
+#gauche {
+  float:left;
+  width:45%;
+  padding-left: 40%;
+}
+#droite {
+  padding-left: 1.5%;
+  overflow:auto;
+  text-align: left;
+}
+
+.thumbProfil{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+
+.navFix{
+  display: inline-block;
+  font-size: 18px;
+  line-height: 45px;
+  margin: 0 2px;
+}
 /************************************************************************************
                                       SECTION
 *************************************************************************************/
@@ -236,9 +267,6 @@ p{
   overflow: hidden;
 }
 
-.PictureAndroid{
-
-}
 /************************************************************************************
                                     SCHOOL                                    
 *************************************************************************************/ 
@@ -847,6 +875,12 @@ MEDIA QUERIES
     padding: 0px 10px 30px 10px;
   }
 
+  #gauche {
+    float:left;
+    width:45%;
+    padding-left: 30%;
+  }
+
   #header, #footer {
     padding: 1% 4%;
   }
@@ -904,6 +938,10 @@ MEDIA QUERIES
     font-weight: 300;
     color: #fff;
     padding: 0px 10px 30px 10px;
+  }
+
+  #gauche {
+    padding-left: 28%;
   }
 
 }
