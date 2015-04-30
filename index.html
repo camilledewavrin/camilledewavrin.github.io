@@ -7,71 +7,47 @@
 
 		<link rel="icon" type="image/png" href="style/images/avatar2.png" />
 		<link rel="stylesheet" type="text/css" href="style/css/design.css">
-		<link rel="stylesheet" type="text/css" href="style/css/component.css">
 		
 		<script src="style/js/jquery.js"></script>
-		<script src="style/js/modernizr.custom.js"></script>
+		<script type="text/javascript"  src="style/js/monScript.js"></script>
 		<title>Camille Dewavrin | Student Developper</title>
 	</head>
 	<body>
-		<div id="background-opacity">
 	<div class="container">	
-		<div class="main clearfix">
-				<nav id="menu" class="nav">					
-					<ul>
-						<li>
-							<a href="#Home">
-								<span  class="icon"> <i aria-hidden="true"  class="icon-user"></i></span><span>About me</span>
-							</a>
-						</li>
-						<li>
-							<a href="#Education">
-								<span class="icon"> <i aria-hidden="true" class="icon-blog"></i></span><span>Education</span>
-							</a>
-						</li>
-						<li>
-							<a href="#Work">
-								<span class="icon"> <i aria-hidden="true" class="icon-work"></i></span><span>Work</span>
-							</a>
-						</li>
-						<li>
-							<a href="#Skill">
-								<span  class="icon"><i  aria-hidden="true" class="icon-services"></i></span><span>Skills</span>
-							</a>
-						</li>
-						<li>
-							<a href="#Project">
-								<span  class="icon"><i  aria-hidden="true" class="icon-portfolio"></i></span><span>Projects</span>
-							</a>
-						</li>
-						<li>
-							<a href="#Contact">
-								<span  class="icon"><i  aria-hidden="true" class="icon-contact"></i></span><span>Contact</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
 			<section id="intro">
-					<h1 class="lato">here’s<br>some stuff<br>About me</h1>
+					<div class="right"><img src="style/images/ProfilArrondie.png" style="width:200px;" class="imgPerso"></div>
+					<h1 class="lato firstitle">HI ! I'm Camille,</h1>
+					<h1 class="lato">Here's some stuff<br>to know about me</h1>
+					<a class="btnView" href="#Home">View more</a>
 			</section>
 			<div class="separate">
 			</div>
 			<div class="content">
 					<section id="Home">
+						<div class="divContenuIcon">
+							<div>
+								<span  class="icon rond"> <i aria-hidden="true"  class="icon-user"></i></span>
+							</div>
+						</div>						
 						<div class="contentAboutme">
-							<div class="right"><img src="style/images/ProfilArrondie.png" style="width:200px;" class="imgPerso"><br><span class="calibri f0"></span></div>
+							<header class="title">
+                   				 <h2 class="section-title"><span>Who I am</span></h2>
+                     				<div class="separatebar"></div>
+                			</header>
+                			<div class="PictureAndroid"><img src="style/images/androidme1.png" style="width:255px;"></div>
 							<div class="Aboutme">
-								<h3>Hey, I'm Camille</h3>
-								<p>I'm a french student developper from EPSI, computer engineering, school located on the 
-									North of France.</p>
-								<p>I passionate by a web development and a new technologies.</p>
-								<p>My last graduate : Bachelor of EPSI.</p>
-								<p>Otherwise, I am someone reserved, calm and i like play futsal and look a TV show.</p>
+								<p>Well, my name is Camille Dewavrin and i'm a french student developper from EPSI, computer engineering, school located in the North of France.</p>
+								<p>I'm passionate about web development and new technologies. I constantly try to stay open and keep myself informed as far as i can.</p>
+								<p>Otherwise, I am someone reserved, calm. I like play futsal and look a TV show.</p>
 							</div>
 						</div>	
 					</section>
 					<section id="Education">
+						<div class="divContenuIcon">
+							<div>
+								<span  class="icon rond"> <i aria-hidden="true"  class="icon-blog"></i></span>
+							</div>
+						</div>
 						<header class="title">
                    				 <h2 class="section-title"><span>School</span></h2>
                      				<div class="separatebar"></div>
@@ -114,11 +90,16 @@
 						</section>
 					</section>
 					<section id="Work">
-						<div id="pagewrap">
-							<header class="title">
+						<div class="divContenuIcon">
+							<div>
+								<span  class="icon rond"> <i aria-hidden="true"  class="icon-work"></i></span>
+							</div>
+						</div>
+						<header class="title">
                    				 <h2 class="section-title"><span>Experience</span></h2>
                      			 <div class="separatebar2"></div>
                 			</header>
+						<div id="pagewrap">
 							<div id="content">
 								<h2>Crédit agricole</h2>
 								<p>Développeur d'application intranet (Web - VB.Net)</p>
@@ -142,6 +123,11 @@
 						</div>
 					</section>
 					<section id="Skill">
+						<div class="divContenuIcon">
+							<div>
+								<span  class="icon rond"> <i aria-hidden="true"  class="icon-services"></i></span>
+							</div>
+						</div>
 						<header class="title">
                    				 <h2 class="section-title"><span>SKILLS</span></h2>
                      				<div class="separatebar2"></div>
@@ -206,6 +192,11 @@
 						</nav> <!-- fin 2eme liste de jauge -->
 					</section>
 					<section id="Project">
+						<div class="divContenuIcon">
+							<div>
+								<span  class="icon rond"> <i aria-hidden="true"  class="icon-portfolio"></i></span>
+							</div>
+						</div>
 						<header class="title">
                    				<h2 class="section-title"><span>MY PROJECTS</span></h2>
                      			<div class="separatebar2"></div>
@@ -244,8 +235,9 @@
 							     </div> 
 							</div> 
 						</div>	
-						</div>
 					</section>
+					<div class="separate">
+					</div>
 					<section id="Contact">
 						<div class="footerLogo"> 
 									<address>
@@ -263,8 +255,34 @@
 					</section>
 			</div>
 		</div>
-		</div>
+		<script type="text/javascript">
+							/*			FONCTION DE SCROLL		*/
+			var scrolling = function(){
+            var speed    = 1050;
+            jQuery('a[href^="#"]').bind('click',function(){
+                 var name = jQuery(this).attr('href');
+                 if(name == '#')
+                     goTo('body');
+                 else
+                     goTo(name);
+                 return(false);
+                void(0);
+            });
+            function goTo(ancre){jQuery('html,body').animate({scrollTop:jQuery(ancre).offset().top},speed,'swing',function(){
+                   if(ancre != 'body')
+                         window.location.hash = ancre;
+                   else
+                       window.location.hash = '#';
+                   jQuery(ancre).attr('tabindex','-1');
+                   jQuery(ancre).focus();
+                   jQuery(ancre).removeAttr('tabindex');
+               });
+             }
+         };
+         jQuery(function(){
+            scrolling();
+         });
+		</script>
 		<script type="text/javascript"  src="style/js/app.js"></script>
-		<script type="text/javascript"  src="style/js/monScript.js"></script>
 	</body>
 </html>

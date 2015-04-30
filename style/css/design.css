@@ -11,10 +11,11 @@
 body{
   font-family:  'Lato', Calibri, Arial, sans-serif;
   color: #89867e;
-  background-image : url(../images/background.jpg);
+  background-image : url(../images/bg.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #background-opacity { /* div permettant de données un effet d'opacity sur background: */
@@ -58,11 +59,13 @@ nav#menu {
 /************************************************************************************
                                       SECTION
 *************************************************************************************/
+.content{
+  position: relative;
+}
+
 .separate{
-	height: 10px;
-	min-height: 10px;
-	box-shadow: 0 10px 0 #ecf0f1;
-	position: relative;
+	background : #ecf0f1;
+  height : 7px;
 }
 
  .lato{
@@ -78,6 +81,7 @@ nav#menu {
   height: auto;
   text-align: center;
 	width: 100%;
+  padding-bottom: 35px;
 
 }
 
@@ -86,6 +90,7 @@ nav#menu {
 	min-height: 400px;
   height: auto;
 	width: 100%;
+  padding-bottom: 35px;
 }
 
 #Work{
@@ -93,6 +98,7 @@ nav#menu {
   min-height: 400px;
   height: auto;
   width: 100%;
+  padding-bottom: 35px;
 }
 
 #Skill{
@@ -100,6 +106,7 @@ nav#menu {
 	min-height: 450px;
   height: auto;
 	width: 100%;
+  padding-bottom: 35px;
 }
 
 #Project{
@@ -107,6 +114,7 @@ nav#menu {
 	min-height: 450px;
   height: auto;
 	width: 100%;
+  padding-bottom: 35px;
 }
 
 #Contact{
@@ -127,12 +135,65 @@ nav#menu {
   margin-top: -3px;
 }
 
+.divContenuIcon{
+  position: relative;
+  top: -35px;
+  text-align: center;
+  width: 100%;
+}
 
+.divContenuIcon div{
+  background: #f5f5f5;
+  color: #333;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 60px;
+  line-height: 60px;
+  padding: 5px;
+  position: relative;
+}
+
+span.icon.rond{
+  font-size: 30px;
+  height: 10px;
+  line-height: 0;
+  text-align: center;
+  width: 28px;
+  position: absolute;
+  z-index: 999;
+  top : 13px;
+  left: 16px;
+}
+
+.btnView{
+  font-family: 'Conv_Gotham-Book';
+  font-size: 14px;
+  color: #8a8a8d;
+  border: 2px solid #8a8a8d;
+  width: 228px;
+  padding: 8px 0;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  margin-left: -114px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btnView:hover{
+    border: 2px solid #fff;
+}
 /************************************************************************************
                                   ABOUT ME
 *************************************************************************************/
 #intro{
-  min-height: 400px;
+  min-height: 642px;
   height: auto;
   text-align: center;
   width: 100%;
@@ -141,12 +202,12 @@ nav#menu {
  h1 {
   display: block;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 30px;
   top: 0px;
-  line-height: 135px;
+  line-height: 100px;
   left: -210px;
-  font-size: 7.375em;
+  font-size: 4em;
   text-transform: uppercase;
   overflow: hidden;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -162,16 +223,21 @@ p{
 }
 
 .Aboutme {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  color: #fefefe;
-  white-space: pre-line;
-  font-size: 18px;
-  line-height: 19px;
-  font-weight: bold;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 300;
+  color: #fff;
+  padding: 0px 100px 30px 100px;
 }
 
 .imgPerso{
-  border-radius: 15px;
+  border-radius: 100px;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+
+.PictureAndroid{
+
 }
 /************************************************************************************
                                     SCHOOL                                    
@@ -332,7 +398,7 @@ span.cd-date {
                                     WORK                                     
 *************************************************************************************/  
 .title {
-  padding-top: 1%;
+  margin-top: -20px;
   text-align: center;
   color: #fefefe;
 }
@@ -402,7 +468,7 @@ span.cd-date {
   box-shadow: 0pt 2px 1px rgba(0, 0, 0, 0.2), -2px 1px 1px rgba(0, 0, 0, 0.1);
   -moz-border-radius: 0pt 0pt 0pt 5px;
   -webkit-border-radius: 0pt 0pt 0pt 5px;
-  border-radius: 0pt 0pt 0pt 5px;
+  border-radius: 0pt 6pt 0pt 6px;
   border-color: #2ecc71 #2ecc71 #E5CF33 #E5CF33;
   opacity: 0.93;
   border-width: 10px;
@@ -645,7 +711,6 @@ a{
 }
 
 .footerLogo{
-  margin-top: 2px;
   padding-top: 5%;
   margin-left: 15%;
   text-decoration: none;
@@ -668,7 +733,7 @@ MEDIA QUERIES
  
   #cd-timeline {
     /*margin-top: 3em;*/
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
    
   #cd-timeline::before {
@@ -817,9 +882,9 @@ MEDIA QUERIES
     text-align: center;
   }  
 
-    .Aboutme{
+/*    .Aboutme{
     padding-right: 0;
-  }
+  }*/
 }
 
 /* for 520px or less */
@@ -853,4 +918,100 @@ MEDIA QUERIES
     margin-left: 7%;
   }
 
+}
+
+
+/************************************************************************************
+                                        ICONES
+*************************************************************************************/
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../../fonts/icomoon.eot');
+  src: url('../../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.woff') format('woff'),
+    url('../../fonts/icomoon.ttf') format('truetype'),
+    url('../../fonts/icomoon.svg#icomoon') format('svg');
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Windows Chrome ugly fix http://stackoverflow.com/questions/13674808/chrome-svg-font-rendering-breaks-layout/14345363#14345363 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.svg#icomoon') format('svg');
+  };
+}
+
+.icon-team, .icon-blog, .icon-home, .icon-portfolio, .icon-services, .icon-contact, .icon-menu, .icon-work, .icon-user, .icon-twitter, .icon-github, .icon-linkedin {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-twitter, .icon-github, .icon-linkedin {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 4em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-team:before {
+  content: "\e000";
+}
+
+.icon-blog:before {
+  content: "\e001";
+}
+
+.icon-home:before {
+  content: "\e002";
+}
+
+.icon-portfolio:before {
+  content: "\e003";
+}
+
+.icon-services:before {
+  content: "\e004";
+}
+
+.icon-contact:before {
+  content: "\e005";
+}
+
+.icon-user:before{
+  content: "\e600";
+}
+
+.icon-work:before{
+  content: "\e601";
+}
+
+.icon-menu:before {
+  content: "\f0c9";
+}
+
+.icon-twitter:before {
+  content: "\e602";
+}
+
+.icon-github:before {
+  content: "\e603";
+}
+
+.icon-linkedin:before {
+  content: "\e604";
 }
