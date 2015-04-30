@@ -810,6 +810,14 @@ MEDIA QUERIES
     #cd-timeline {
       margin-left: 2%; 
     }
+
+  .Aboutme {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0px 40px 30px 40px;
+  }
    
 }
 
@@ -829,6 +837,14 @@ MEDIA QUERIES
     padding: 1% 4%;
     margin: 0px 0px 5px 5px;
     float: right;
+  }
+
+  .Aboutme {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0px 10px 30px 10px;
   }
 
   #header, #footer {
@@ -869,9 +885,9 @@ MEDIA QUERIES
     margin-top: 40px;
     margin-bottom: 30px;
     top: 0px;
-    line-height: 105px;
+    line-height: 50px;
     left: -210px;
-    font-size: 4.375em;
+    font-size: 2.5em;
     text-transform: uppercase;
     overflow: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -882,9 +898,14 @@ MEDIA QUERIES
     text-align: center;
   }  
 
-/*    .Aboutme{
-    padding-right: 0;
-  }*/
+  .Aboutme {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0px 10px 30px 10px;
+  }
+
 }
 
 /* for 520px or less */
@@ -910,8 +931,9 @@ MEDIA QUERIES
   #header {
     height: auto;
   }
+
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .footerLogo{  
