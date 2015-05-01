@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        var y = $(window).scrollTop();
+        var heightpixel = $(window).scrollTop();
  
-        if( y > 680 )
+        if( heightpixel > 680 )
         {
             $("#navbar").fadeIn("slow");
             $("#navbar").css({'display':'initial'});
