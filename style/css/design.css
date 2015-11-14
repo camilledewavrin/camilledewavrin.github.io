@@ -19,7 +19,7 @@ body{
 }
 
 html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
+  /*background: url(../images/bg.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,7 +54,7 @@ a:hover {
 .container > header {
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 7em; /* media query en reduisant le padding */
+	padding: 0 7em; 
 }
 
 .main {
@@ -68,8 +68,8 @@ nav#menu {
 
 #navbar {
  /* background-color: rgba(255,255,255,0.35);/*#009688*/
- background-image : url(../images/bg.jpg);
-   background-size: 100%;
+  background-image : url(../images/bg.jpg);
+  background-size: 100%;
   background-position-y: 48%;
   background-position: center;
   color: white;
@@ -622,7 +622,7 @@ h4.nameCercle{
     transition: all 0.2s ease-in-out;
 }
 
-/* vue = bandeau qui apparrait */
+/* vue = bandeau  */
 .view {
     width: 280px;
     height: 170px;
